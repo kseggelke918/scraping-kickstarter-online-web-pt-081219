@@ -6,6 +6,7 @@ require 'pry'
 # image link: project.css("div.project-thumbnail a img").attribute("src").value 
 # description: project.css("p.bbcard_blub").text 
 # location : project.css("span.location-name").text 
+# percent_funded: 
 
 
 def create_project_hash
